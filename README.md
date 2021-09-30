@@ -1200,8 +1200,9 @@ Q34: In your own words, what is iteration?
 
 Q35: In your own words, what is the difference between a `for` loop and a `while` loop?
 
-# Lab Notebook Questions
+Q36: Include a link to your Replit workspace.
 
+# Lab Notebook Questions
 
 Q1: Provide your code + comments for steps 37-42.
 
@@ -1372,3 +1373,5 @@ Q33: Write a program that reads in three strings and prints them out in alphabet
 Q34: In your own words, what is iteration?
 
 Q35: In your own words, what is the difference between a for loop and a while loop?
+
+Q36: Include a link to your Replit workspace.
