@@ -58,6 +58,8 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
       * [`break`](#break)
       * [`continue`](#continue)
   * [Additional Work With Loops](#additional-work-with-loops)
+  * [Additional Lab Notebook Questions](#additional-lab-notebook-questions)
+- [Lab Notebook Questions](#lab-notebook-questions)
 
 # Conditional Statements
 
