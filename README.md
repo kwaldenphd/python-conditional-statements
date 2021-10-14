@@ -729,7 +729,7 @@ for entry in enumerate(message):
  print(entry)
  
  if entry[1] == 'l':
-  print(f'Found an 'l' at position {entry[0]}')
+  print(f'Found an "l" at position {entry[0]}')
 ```
 
 111. You can modify this code to include other messages or test for other characters.
