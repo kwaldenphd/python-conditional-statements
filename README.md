@@ -11,6 +11,20 @@ By the end of this lab, students will be able to
 - Describe the differences between a while and for loop
 - Write programs that use iteration and loops to accomplish specific task prompts
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=912a69c8-befa-4463-a8c6-ad8201619aa9">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=c9fd5091-8129-45fe-ac92-ae300130ea0f">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
 ## Acknowledgements
 
 Elements of this lab procedure were adapted from materials developed by [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
@@ -28,6 +42,8 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
 
 # Table of Contents
 
+- [Lecture and Live Coding](#lecture-and-live-coding)
+- [Lab Notebook Template](#lab-notebook-template)
 - [Conditional Statements](#conditional-statements)
   * [Operator Review](#operator-review)
   * [`if` Statements](#if-statements)
@@ -61,8 +77,47 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
   * [Additional Lab Notebook Questions](#additional-lab-notebook-questions)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
+[Link to lab procedure as a Jupyter Notebook](https://colab.research.google.com/drive/14fbwwh16Hw7ORWKa3NWIfzuKPI3wbTZA?usp=sharing)
+
+# Lecture and Live Coding
+
+Throughout this lab, you will see a Panopto icon at the start of select sections.
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=912a69c8-befa-4463-a8c6-ad8201619aa9">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=c9fd5091-8129-45fe-ac92-ae300130ea0f">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
+# Lab Notebook Template
+
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/16fBLfRztPPIa2ha0VRlTmDZUf0Eou0bV/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1U20BxF1EzRzSjZxfCCabbMzR5xJB1KQ-/view?usp=sharing)
+
 # Conditional Statements
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90f75580-7e9a-4ac6-ba47-ad8201623134">Conditional Statements</a></td>
+  </tr>
+  </table>
+  
 1. So far, all the programs we have written work by executing each statement in the program in order, from top to bottom. 
 
 2. To write programs that solve more complex problems, we need mechanisms that will allow statements to be executed in more complex ways. 
@@ -140,6 +195,7 @@ print(number ==10 or number ==20)
 14. The basic syntax for an `if` statement:
 
 ```Python
+# sample syntax for if statement
 if condition:
  statement(s)
 ```
@@ -149,6 +205,7 @@ if condition:
 16. To illustrate that another way:
 
 ```Python
+# sample syntax for if statement
 if this condition is true:
  then do this thing
 ```
@@ -164,8 +221,10 @@ if this condition is true:
 20. We can do that using an `if` statement.
 
 ```Python
+# assign integer variable
 n = 0
 
+# if statement
 if n == 0:
  print('n is zero')
 ```
@@ -175,7 +234,10 @@ if n == 0:
 22. This time, we are going to ask the user for an input, and use that input in an `if` statement.
 
 ```Python
+# assign string variable from input
 number = int(input("Enter a number: "))
+
+# if statement
 if number > 0:
   print("That number is positive.")
 ```
@@ -193,7 +255,10 @@ if number > 0:
 27. The indentation for this second `print` statement needs to match `print("That number is positive.")` in the previous example.
 
 ```Python
+# assign integer variable from input
 number = int(input("Enter a number: "))
+
+# if statement
 if number > 0:
   print("That number is positive.")
   print('Second print statement goes here')
@@ -206,11 +271,14 @@ if number > 0:
 30. This time, instead of matching the `print("That number is positive.")` indentation, the second print statement will be aligned with the `if` statement.
 
 ```Python
+# assign integer variable from input
 number = int(input("Enter a number: "))
 
+# if statement
 if number > 0:
   print("That number is positive.")
 
+# print statement
 print('Second print statement with modified indentation')
 ```
 
@@ -231,8 +299,10 @@ print('Second print statement with modified indentation')
 37. Let's write a program that asks the user to enter a color name.
 
 ```Python
+# assign string variable from input
 color = input("Enter a color name")
 
+# print color name message
 print("You entered the color " + color)
 ```
 
@@ -259,6 +329,7 @@ print("You entered the color " + color)
 45. The basic syntax for `if-else`:
 
 ```Python
+# sample syntax for if-else statement
 if condition:
  statement(s)
 else:
@@ -293,6 +364,7 @@ print ("This message prints every time.")
 
 49. We can also test for values in a list.
 ```Python
+# create list of fruits
 fruits = ['apple', 'pear', 'orange']
 
 #a test to see if apple is on the list
@@ -314,10 +386,12 @@ else:
 - Key term: *chained conditionals*
 
 ```Python
+# set integer variables
 a = 200
 b = 33
 c = 500
 
+# if statement with chained conditional
 if a > b or a > c:
  print("At least one of the conditions is True")
 ```
@@ -326,8 +400,10 @@ if a > b or a > c:
 - Key term: *nested conditionals*
 
 ```Python
+# set integer variable
 x = 41
 
+# nested conditional statement
 if x > 10:
   print("Above ten,")
   if x > 20:
@@ -355,9 +431,8 @@ if x > 10:
 
 57. A few examples of control flow and conditional execution in action.
 
+`if` statement example
 ```Python
-# if statement example 
-
 # declares a variable
 a = 2019
 
@@ -369,9 +444,9 @@ if b > a:
  print("b is greater than a")
 ```
 
-```Python
-# if..else statement example
+`if-else` statement example
 
+```Python
 # declares x variable
 x = .01
 
@@ -394,9 +469,9 @@ else:
 
 60. Python will test the `elif` condition if previous conditions are not true.
 
-```Python
-# elif statement example
+`elif` statement example
 
+```Python
 # declares x variable
 x = 1
 
@@ -413,9 +488,9 @@ else:
  print("x is greater than 0")
 ```
 
-```Python
-# another elif example
+Another `elif` example:
 
+```Python
 # assign a variable 
 a = 33
 
@@ -431,9 +506,9 @@ elif a == b:
  print("a and b are equal")
 ```
 
-```Python
-# example using chained conditional statements
+`elif` example with chained conditional statements
 
+```Python
 # assign a variable
 a = 2020
 
@@ -454,6 +529,14 @@ if a > b or a > c:
 
 # Loops
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30a8ce41-a003-4115-b651-ad820162306f">Loops</a></td>
+  </tr>
+  </table>
+  
+
 61. Loop statements are a type of conditional statement that rely on the underlying logic of conditional execution.
 
 62. In Python, loops repeatedly execute a series of tasks.
@@ -473,6 +556,13 @@ if a > b or a > c:
 
 ## `for` Loops
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30a8ce41-a003-4115-b651-ad820162306f">For Loops</a></td>
+  </tr>
+  </table>
+  
 68. `for` loops let us iterate through a definite set of objects.
 
 69. In each iteration through the `for` loop, Python will:
@@ -484,6 +574,7 @@ if a > b or a > c:
 70. The basic syntax in a `for` loop:
 
 ```Python
+# sample for loop syntax
 for item in dataset:
  statement(s)
 ```
@@ -493,7 +584,9 @@ for item in dataset:
 72. You can replace `item` with another word or letter character.
 
 ```Python
-for i in dataset
+# sample for loop syntax
+for i in dataset:
+	statement(s)
 ```
 
 73. In this syntax, `dataset` stands for the list of items we want Python to iterate over.
@@ -505,6 +598,7 @@ for i in dataset
 75. Let's say we have a list of numbers, and we want Python to iterate through each number in the list and print the number.
 
 ```Python
+# for loop that iterates over integers in list
 for i in [0, 1, 2, 3]:
  print(i)
 ```
@@ -531,14 +625,14 @@ for i in number_list:
 80. Let's say we have a list of pepper types.
 
 ```Python
+# create list of strings
 peppers = ["bell", "poblano", "jalapeno", “banana”, “chile”, “cayenne”]
 ```
 
 81. We can use a `for` loop to iterate over each string in the list.
 
 ```Python
-peppers = ["bell", "poblano", "jalapeno", “banana”, “chile”, “cayenne”]
-
+# for loop that iterates over strings in list
 for x in peppers:
  print(x)
 ```
@@ -548,15 +642,18 @@ for x in peppers:
 83. Let's say we want to iterate over the characters in the string `elements`.
 
 ```Python
+# for loop that iterates over characters in string
 for x in 'elements':
  print(x)
 ```
 
-```Python
-# another example of iterating over characters in a string
+Alternate syntax for that program:
 
+```Python
+# assign string variable
 string = 'elements'
 
+# for loop that iterates over characters in s tring
 for x in string:
  print(x)
 ```
@@ -568,12 +665,14 @@ for x in string:
 84. We can use the `range()` function to generate a list of numbers.
 
 ```Python
+# range function
 range(0, 3)
 ```
 
 85. We can use the `range()` function as part of a `for` loop.
 
 ```Python
+# for loop that iterates over values in range
 for i in range(0, 3):
  print(i)
 ```
@@ -585,12 +684,14 @@ for i in range(0, 3):
 87. We can use the `enumerate()` function to generate a list of pairs containing each item in the list and its index.
 
 ```Python
+# create list using enumerate
 list(enumerate(['a','b','c'])
 ```
 
 88. We can use the `enumerate()` function as part of a `for` loop.
 
 ```Python
+# for loop that iterates over list index and values
 for index, letter in enumerate('abc'):
  print(index, letter)
 ```
@@ -604,6 +705,7 @@ for index, letter in enumerate('abc'):
 91. Let's say we have a nested list, or a list that contains sub-lists.
 
 ```Python
+# create list with  sublists or nested lists
 numlist = [[0, 42], [67543, -987654]]
 ```
 
@@ -616,11 +718,14 @@ numlist = [[0, 42], [67543, -987654]]
 ### `for` Loops: Putting It All Together
 
 93. Let's start combining `for` loops with some of the concepts covered in previous labs.
-```Python
-#loops through a list of the members of the House Stark.
 
+A sample `for` loop that iterates over members of the House Stark:
+
+```Python
+# create list of strings
 characters = ['Arya', ' Benjen', 'Bran', 'Catelyn', 'Eddard', 'Rickon', 'Robb', 'Sansa']
 
+# iterate over strings in list
 for character in characters:
   print(character.title() + "Stark")
 ```
@@ -645,10 +750,17 @@ Sansa Stark
 
 97. Now let's look at a different loop.
 ```Python
+# create list of strings
 characters = ['Arya', ' Benjen', 'Bran', 'Catelyn', 'Eddard', 'Rickon', 'Robb', 'Sansa']
+
+# print statement
 print('Members of the House Stark:')
+
+# for loop that outputs list items in title case
 for character in characters:
   print(character.title() + " Stark")
+  
+# final print statement
 print(characters[0].title() + " is my favorite.")
 ```
 
@@ -693,12 +805,14 @@ print(characters[0].title() + " is my favorite.")
 103. First, we could create a variable with our `Hello World!` string.
 
 ```Python
+# assign string variable
 message = 'Hello World!'
 ```
 
 104. Then, we could use a `for` loop with the `enumerate()` function to access each element in the string and its index.
 
 ```Python
+# for loop that outputs index-value pairs for each character in string
 for entry in enumerate(message):
  print(entry)
 ```
@@ -708,6 +822,7 @@ for entry in enumerate(message):
 106. Next, we could use a conditional statement to test for equality.
 
 ```Python
+# conditional statement based on index value
 if entry[1] == 'l':
  print(f'Found an 'l' at position {entry[0]}')
 ```
@@ -723,13 +838,16 @@ if entry[1] == 'l':
 110. To put that all together:
 
 ```Python
+# assign string variable
 message = 'Hello World!'
 
+# for loop that outputs index-value pairs for each character in string
 for entry in enumerate(message):
- print(entry)
- 
- if entry[1] == 'l':
-  print(f'Found an "l" at position {entry[0]}')
+	print(entry)
+	
+	# conditional statement based on index value
+	if entry[1] == 'l':
+ 		print(f'Found an "l" at position {entry[0]}')
 ```
 
 111. You can modify this code to include other messages or test for other characters.
@@ -743,7 +861,7 @@ for entry in enumerate(message):
 113. This time, let's say we have a list of names that might be used to refer to Notre Dame's Department of Computer Science and Engineering.
 
 ```Python
-#here is a list of names
+# create list of strings
 names=['department of computer science and engineering', 'computer science department', 'cse']
 ```
 
@@ -764,6 +882,7 @@ names=['department of computer science and engineering', 'computer science depar
 117. First, we could use a `for` loop to iterate through each item in the list.
 
 ```Python
+# sample for loop syntax
 for name in names:
  SOMETHING WILL GO HERE
 ```
@@ -771,6 +890,7 @@ for name in names:
 118. Then, we could use an `if` statement to test if the element equals `cse`
 
 ```Python
+# first condition
 if name == 'cse':
  DO SOMETHING 
 ```
@@ -780,6 +900,7 @@ if name == 'cse':
 120. So we could finish the `if` statement.
 
 ```Python
+# first condition with print statements
 if name == 'cse':
  print(name.upper())
 ```
@@ -789,6 +910,7 @@ if name == 'cse':
 122. We can use an `else` statement combined with a `print()` statement.
 
 ```Python
+# else statement
 else:
  print(name.title())
 ```
@@ -796,8 +918,10 @@ else:
 123. To put that all together:
 
 ```Python
+# list of strings
 names=['department of computer science and engineering', 'computer science department', 'cse']
 
+# for loop with if-else statement
 for name in names:
   if name == 'cse':
     print(name.upper())
@@ -823,6 +947,13 @@ for name in names:
 
 ## `while` Loops
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=455a835f-05c1-4cc9-ae21-ad59014f29ea">While Loops</a></td>
+  </tr>
+  </table>
+  
 126. Another way to modify the control flow of a program is to have it execute one or more statements repeatedly.
 
 127. A `while` loop will test for an initial condition and continue iterating through the loop until the condition is `False`.
@@ -835,15 +966,17 @@ for name in names:
 129. The basic syntax for a `while` loop:
 
 ```Python
+# while loop sample syntax
 while condition:
- statement(s)
+	statement(s)
 ```
 
 130. To express this logic another way:
 
 ```Python
-while THIS CONDITION IS TRUE
- DO THIS THING
+# while loop sample syntax
+while THIS CONDITION IS TRUE:
+	DO THIS THING
 ```
 
 ### `while` Loop Examples
@@ -853,11 +986,13 @@ while THIS CONDITION IS TRUE
 131. Let's look at a sample `while` loop that uses the `<` (less than) comparison operator.
 
 ```Python
+# assign integer variable
 n = 0
 
-while n < 10:
- print(n)
- n = n +1
+# while loop
+while n < 10: # initial condition
+ print(n) # print statement
+ n = n +1 # reassign value of n
 ```
 
 132. To walk through what is happening in each line of this program...
@@ -889,9 +1024,9 @@ while n < 10:
 x = 10
 
 # looping structure using greater than or equal to conditional statement
-while x >= 0:
- print(x)
- x = x-1
+while x >= 0: # initial condition
+ print(x) # print statement
+ x = x-1 # reassign x
 
 # message to print once loop has completed
 print("I'm done!")
@@ -908,11 +1043,17 @@ print("I'm done!")
 141. Let's look at a `while` loop that includes strings and integers.
 
 ```Python
+# assign count variable
+
 count = 1
-while count <= 5:
-   print ("Notre")
-   print ("Dame")
-   count = count + 1
+
+# while loop
+while count <= 5: # initial condition
+   print ("Notre") # first print statement
+   print ("Dame") # second print statement
+   count = count + 1 # reassign count
+
+# final print statement
 print ("Done")
 ```
 
@@ -968,17 +1109,24 @@ IS FUN!
 i = 1
 
 # while loop
-while i < 200:
- if i > 150:
-  print('Expression value is greater than 150')
- elif i > 100:
-  print('Expression value is greater than 100')
- elif i > 50:
-  print('Expression value is greater than 50')
- elif i < 50:
-  print('Expression value is less than 50')
- i += 10
+while i < 200: # initial condition
 
+	if i > 150: # if statement
+		print('Expression value is greater than 150') # print statement
+		
+	elif i > 100: # elif statement that introduces new condition
+		print('Expression value is greater than 100') # print statement
+		
+	elif i > 50: # elif statement that introduces new condition
+		print('Expression value is greater than 50') # print statement
+
+	elif i < 50: # elif statement that introduces new condition
+		print('Expression value is less than 50') # print statement
+
+	# reassign i
+	i += 10
+
+# final print statement
 print("That's all, folks!")
 ```
 
@@ -1005,11 +1153,14 @@ print("That's all, folks!")
 i = 1
 
 # while loop
-while i < 6:
- print(i)
- if i == 3:
-  break
- i += 1
+while i < 6: # initial condition
+	
+	print(i) # print statement
+
+	if i == 3: # if statement
+		break # break statement
+	
+	i += 1 # reassign i
 ```
 
 160. In this example, the loop breaks as soon as the `i == 3` condition is `True`.
@@ -1027,11 +1178,14 @@ while i < 6:
 i = 0
 
 # while loop
-while i < 6:
- i += 1
- if i ==3:
-  continue
- print(i)
+while i < 6: # initial condition
+
+	i += 1 # reassign i
+	
+	if i ==3: # if statement
+		continue # continue statement
+	
+	print(i) # print statement
 ```
 
 163. In this example, the current iteration of the loop will stop when `i == 3` is true.
@@ -1212,6 +1366,10 @@ Q38: Include a link to your Replit workspace.
 
 # Lab Notebook Questions
 
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/16fBLfRztPPIa2ha0VRlTmDZUf0Eou0bV/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1U20BxF1EzRzSjZxfCCabbMzR5xJB1KQ-/view?usp=sharing)
+
 Q1: Provide your code + comments for steps 37-42.
 
 Q2: Describe how you approached writing the program for Q1.
@@ -1246,9 +1404,12 @@ Q6: What do you expect this code to output? Explain how this program works in yo
 
 ```Python
 characters = ['Arya', ' Benjen', 'Bran', 'Catelyn', 'Eddard', 'Rickon', 'Robb', 'Sansa']
+
 print('Members of the House Stark:')
+
 for character in characters:
-  print(character.title() + " Stark")
+ 	print(character.title() + " Stark")
+
 print(characters[0].title() + " is my favorite.")
 ```
 
