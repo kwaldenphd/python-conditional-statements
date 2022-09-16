@@ -23,7 +23,7 @@ Conditional statements:
   <tr><td>While</td><td><code>while</code><td><code>while x > y</code></td></tr> 
   </table>
 
-**Booean Logic**
+## Booean Logic
 - "In mathematics and mathematical logic, Boolean algebra is the branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0" ([Wikipedia](https://en.wikipedia.org/wiki/Boolean_algebra))
 - "You can evaluate any expression in Python, and get one of two answers, `True` or `False`. When you compare two values, the expression is evaluated and Python returns the Boolean answer" ([W3Schools, Python Booleans](https://www.w3schools.com/python/python_booleans.asp))
 
@@ -39,7 +39,7 @@ y = 6
 print(x > y) # returns false
 ```
 
-**Comparison Operators (or relational operators)**
+## Comparison Operators (or relational operators)
 
 - "The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type" (Busbee, "[Relational Operators](https://press.rebus.community/programmingfundamentals/chapter/relational-operators/)")
 
@@ -69,7 +69,7 @@ Examples of control structures in Python include:
 - `if-then-else` (syntax: `if`, `else`, `elif`)
 - `while` statements (syntax: `while`)
 
-**`If-Then-Else`**
+## `If-Then-Else`
 
 From Busbee and Braunschweig's "[Seletion Control Structures](https://press.rebus.community/programmingfundamentals/chapter/selection-control-structures/)" from *Programming Fundamentals*:
 - "The basic attribute of a selection control structure is to be able to select between two or more alternate paths. This is described as either two-way selection or multi-way selection. A question using Boolean concepts usually controls which path is selected. All of the paths from a selection control structure join back up at the end of the control structure, before moving on to the next lines of code in a program."
@@ -118,5 +118,5 @@ while x != y:
 For more on `if-then-else` logic in Python:
 - [W3Schools, Python If ... Else](https://www.w3schools.com/python/python_conditions.asp)
 
-**Logical Operators**
+## Logical Operators
 - "A logical operator is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. Common logical operators include AND, OR, and NOT." (Busbee and Braunschweig, "[Logical Operators](https://press.rebus.community/programmingfundamentals/chapter/logical-operators/)")
