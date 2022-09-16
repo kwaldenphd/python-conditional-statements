@@ -69,7 +69,7 @@ Examples of control structures in Python include:
 - `if-then-else` (syntax: `if`, `else`, `elif`)
 - `while` statements (syntax: `while`)
 
-`If-Then-Else`
+**`If-Then-Else`**
 
 From Busbee and Braunschweig's "[Seletion Control Structures](https://press.rebus.community/programmingfundamentals/chapter/selection-control-structures/)" from *Programming Fundamentals*:
 - "The basic attribute of a selection control structure is to be able to select between two or more alternate paths. This is described as either two-way selection or multi-way selection. A question using Boolean concepts usually controls which path is selected. All of the paths from a selection control structure join back up at the end of the control structure, before moving on to the next lines of code in a program."
