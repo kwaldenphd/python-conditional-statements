@@ -284,11 +284,69 @@ QX: Should we try while and a guessing game? or save this for loops/iteration
 
 # Putting It All Together
    
-We can imagine programming scenarios in which we want to compare more than two values or test for multiple conditions.
+We can imagine programming scenarios in which we want to compare more than two values or evaluate multiple conditions as part of a conditional statement. We can do this using logical operators and complex conditional statements.
 
-Logical operators, and/or/not
+For example, `5 < 6 > 7` evaluates whether `5` is less than `6` and `6` is greater than `7`. This statement would return `False`.
 
-Complex conditions, chained conditional statements, testing for multiple conditions
+An example using strings: `"apple" > "banana" < "blueberry"` evaluates whether `"apple"` is greater than (or comes after) `"banana"` and whether `"banana"` is less than (or comes before) `"blueberry"`. This statement would return `False`.
+
+Python examples:
+
+```Python
+# an example that compares three integers
+print(5 < 6 > 7) # returns false because 6 is not greater than 7
+
+# an example that compares three strings
+print("apple" > "banana" < "blueberry") # returns false because apple comes before or is less than banana
+```
+
+We can also compare or relate multiple conditions using logical operators: `and`, `or`, `not`
+
+- "A logical operator is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. Common logical operators include AND, OR, and NOT." (Busbee and Braunschweig, "[Logical Operators](https://press.rebus.community/programmingfundamentals/chapter/logical-operators/)")                            
+
+For example, `5 < 6 and 6 < 7` evaluates whether `5 < 6` and `6 < 7` are true. This statement would return `True`.
+
+Another example: `5 < 6 or 6 > 7` evaluates whether `5 < 6` or `6 > 7` is true. This statement would return `True`.
+
+Logical operators in Python:
+    
+<table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
+  <tr><td>And</td><td><code>and</code><td><code>x == y and y != z</code></td><td>Returns <code>True</code> if both statements are true</td></tr>
+  <tr><td>Or</td><td><code>or</code><td><code>x != y or y == z</code></td><td>Returns <code>True</code> if one of the statements is true</td></tr>
+  <tr><td>Not</td><td><code>not</code><td><code>not(x == y and y != z)</code></td><td>Reverses the result, returns <code>False</code> if the result is true</td></tr>
+  </table>
+    
+```Python
+# example using logical operators
+print(5 < 6 and 6 < 7) # returns true because both statements are true
+
+print(5 < 6 or 6 > 7) # returns true because at least one statement is true
+
+print(not(5 < 6 and 6 < 7)) # returns false, inverse of initial true
+```
+
+For more on logical operators in Python: [W3Schools, Python Logical Operators](https://www.w3schools.com/python/gloss_python_logical_operators.asp)   
+
+## Comprehension Check
+
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Data Types & the IDE Comprehension Check</a></td>
+  </tr>
+  </table>
+
+How do we compare more than 2 values
+
+Logical operators- pseudocode description
+
+Sample complex statements- what would they return
+
+## Application
+
+QX: Write sample statements comparing more than 2 values. INTEGERS AND STRINGS
+   
+QX: Write sample statements using AND and OR. INTEGERS AND STRINGS
 
 # Lab Notebook Questions
 
