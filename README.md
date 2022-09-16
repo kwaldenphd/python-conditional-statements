@@ -57,4 +57,8 @@ INDENTATION AS A CORE ELEMENT OF PYTHON SYNTAX
 
 # Putting It All Together
 
+Complex conditions
+
+Logical operators & testing for multiple conditions
+
 # Lab Notebook Questions
