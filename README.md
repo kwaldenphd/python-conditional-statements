@@ -162,7 +162,7 @@ print("Ohio State" > "Notre Dame") # returns false
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Data Types & the IDE Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Comparison Operators Comprehension Check</a></td>
   </tr>
   </table>
 
@@ -265,7 +265,7 @@ else:
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Data Types & the IDE Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link"><code>if-then-else</code> Comprehension Check</a></td>
   </tr>
   </table>
 
@@ -335,7 +335,7 @@ For more on logical operators in Python: [W3Schools, Python Logical Operators](h
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Data Types & the IDE Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Logical Operators & Complex Conditional Statements Comprehension Check</a></td>
   </tr>
   </table>
 
