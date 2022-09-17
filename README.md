@@ -20,16 +20,14 @@ This lab provides an overview of foundational programming concepts in the areas 
 
 ## Acknowledgements
 
-Elements of this lab procedure were adapted from materials developed by [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
-- [Conditional and Alternative Execution](http://nbviewer.jupyter.org/urls/gitlab.com/snippets/25773/raw)
-
-Elements of this lab procedure were adapted from materials developed by [Dr. Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
-- [Laboratory: Programming in Python (Decisions and Repetition)](http://www.cs.grinnell.edu/~davisjan/csc/105/labs/python3.html)
-
-Elements of this lab procedure were adapted from materials developed by [Dr. Corey Pennycuff](https://www3.nd.edu/~cpennycu/) for the [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
-- [Control flow structures](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.09.03.ipynb)
-
-Elements of this lab procedure were adapted from materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
+Elements of this lab procedure were adapted from materials developed by:
+- [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
+  * [Conditional and Alternative Execution](http://nbviewer.jupyter.org/urls/gitlab.com/snippets/25773/raw)
+- [Dr. Janet Davis](https://cs.whitman.edu/~davisj/) for the the [CSC 105 "The Digital Age" course](https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/). 
+  * [Laboratory: Programming in Python (Decisions and Repetition)](http://www.cs.grinnell.edu/~davisjan/csc/105/labs/python3.html)
+- [Dr. Corey Pennycuff](https://www3.nd.edu/~cpennycu/) for the [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
+  * [Control flow structures](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.09.03.ipynb)
+- [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
 - [Lecture & Live Coding](#lecture--live-coding)
@@ -46,7 +44,7 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
 - [How to Submit This Lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
-[Click here](https://colab.research.google.com/drive/1HYwPZ6MkpYDe4QIXVVzXM4M13hA26ufL?usp=sharing) to access this lab procedure as a Jupyter Notebook.
+[Click here](https://colab.research.google.com/drive/1UYWn9aXNzacQrxIWut9VR6zqTkCwt6gx?usp=sharing) to access this lab procedure as a Jupyter Notebook.
 
 ## Lecture & Live Coding
 
@@ -62,11 +60,11 @@ You can click the link in the figure caption to access these materials (ND users
 
 ## Lab Notebook Template
 
-[Click here](https://replit.com/team/eoc-f22/Introduction-to-Python) to make a copy of the Replit template for this lab.
+[Click here]() to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1xnnZnnab03qHwTPQR5pGv39XsNlaOYpA?usp=sharing) (Google Colab, ND users)
+- [`.py` template]() (Google Drive, ND users)
+- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/171iknHXXUMLEO-yyUCI1g-MbRAKFgAOv?usp=sharing) (Google Colab, ND users)
 
 ## How to submit this lab (and show your work)
 
@@ -162,7 +160,7 @@ print("Ohio State" > "Notre Dame") # returns false
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Comparison Operators Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd20NlXelKfF3hS5ftvjJAPG_Db7uMbnODfIT8dGZ39fP5EaA/viewform?usp=sf_link">Comparison Operators Comprehension Check</a></td>
   </tr>
   </table>
 
@@ -174,9 +172,60 @@ Sample comparisons, would output be True/False
 
 ## Application
 
-QX: Write a program that uses each of the comparison operators for simple two value comparisons. Or name two variables and then use them with the comparison operators. DO THIS FOR STRINGS AND NUMERIC VALUES
+Q1: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two numeric values. Answer to this question includes program + comments that document process and explain your code.
 
-QX: Write a program that accepts a user input for age and compares with your age. Uses `input()` and combination of `if-then-else`
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q2: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q3: Write a program that asks a user to enter their age and returns an output message comparing that value with your age. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+Your age: 10
+
+My age: 12
+
+I am older!
+```
 
 # `if-then-else` 
 
@@ -265,7 +314,7 @@ else:
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link"><code>if-then-else</code> Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfP5zF_hGh2tEgr0pz3D56a6YiIkjJxcfRZq5YAHcjhZQ3wqw/viewform?usp=sf_link"><code>if-then-else</code> Comprehension Check</a></td>
   </tr>
   </table>
 
@@ -279,11 +328,77 @@ Code blocks in Python (and where indentation fits in)
 
 ## Application
 
-QX: things that use if-then=else logic 
+Q4: Write a program that asks a user to enter a color value and returns an output message comparing that value with your favorite color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
 
-QX: something that uses if-then-else with an input statement
+Sample output for this program:
+```
+Your favorite color: green
 
-QX: Should we try while and a guessing game? or save this for loops/iteration
+My age: blue
+
+We don't have the same favorite color.
+```
+
+Q5: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Primary colors:
+- Red
+- Yellow
+- Blue
+
+Secondary colors:
+- Green
+- Orange
+- Purple
+
+Tertiary colors:
+- Amber
+- Vermillion
+- Magenta
+- Violet
+- Teal
+- Chartreuse
+
+Q6: Write a program that lets the user play a guessing game.
+- First, your program should set a number as the "correct answer"
+- Then, your program will ask the user to guess a number
+- Your program should give a message indicating whether the user's guess is correct, too high, or too low
+
+This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program (for a correct answer of 7:
+```
+You guessed 13.
+
+This guess is too high.
+
+Better luck next time!
+```
+
+Q7: Revise your Q6 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
+
+Remember the lines of code nested under a `while` statement will continue to run (or loop) as long as the initial condition is true. The program will stop running (or looping) this code block when the initial condition is no longer true.
+
+The general logic flow for this program:
+```
+1- Accept user input
+
+2- Evaluate initial condition
+
+3- Check if guess is too high
+
+4- If guess is too high, output message to user and accept another guess.
+
+5- Check if guess is too low
+
+6- If guess is too low, output message to user and accept another guess
+
+7- Output final message indicating user has guessed correctly
+```
+
+Note that lines 2-6 will need to continue running (or looping) until the user guesses correctly.
+
+Answer to this question includes program + comments that document process and explain your code.
 
 # Putting It All Together
    
@@ -335,7 +450,7 @@ For more on logical operators in Python: [W3Schools, Python Logical Operators](h
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhdGEhhGB1wcx4BSRS7xGRG3yV8jKy3YXaISk1FEjCA4-W9w/viewform?usp=sf_link">Logical Operators & Complex Conditional Statements Comprehension Check</a></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLWTw1QgP8g3nrgGAUJNhgyRP9wzEo-3CcHF_YlgmiXklUyw/viewform?usp=sf_link">Logical Operators & Complex Conditional Statements Comprehension Check</a></td>
   </tr>
   </table>
 
@@ -347,14 +462,197 @@ Sample complex statements- what would they return
 
 ## Application
 
-QX: Write sample statements comparing more than 2 values. INTEGERS AND STRINGS
+Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# third numeric value
+
+# complex comparison statement
+
+```
+
+Q9: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# third string object
+
+# complex comparison statement
+
+```
    
-QX: Write sample statements using AND and OR. INTEGERS AND STRINGS
+Q10: Write a program that uses Python's `and` and `or` logical operators to compare (at least) two comparison statements. Answer to this question includes program + comments that document process and explain your code.
 
 # Lab Notebook Questions
 
-[Click here](https://replit.com/team/eoc-f22/Introduction-to-Python) to make a copy of the Replit template for this lab.
+[Click here]() to make a copy of the Replit template for this lab.
 
 Alternatives:
 - [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
 - [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1xnnZnnab03qHwTPQR5pGv39XsNlaOYpA?usp=sharing) (Google Colab, ND users)
+
+Q1: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two numeric values. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q2: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# equal
+
+# not equal
+
+# greater than
+
+# less than
+
+# greater than or equal to
+
+# less than or equal to
+
+```
+
+Q3: Write a program that asks a user to enter their age and returns an output message comparing that value with your age. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+Your age: 10
+
+My age: 12
+
+I am older!
+```
+
+Q4: Write a program that asks a user to enter a color value and returns an output message comparing that value with your favorite color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program:
+```
+Your favorite color: green
+
+My age: blue
+
+We don't have the same favorite color.
+```
+
+Q5: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Primary colors:
+- Red
+- Yellow
+- Blue
+
+Secondary colors:
+- Green
+- Orange
+- Purple
+
+Tertiary colors:
+- Amber
+- Vermillion
+- Magenta
+- Violet
+- Teal
+- Chartreuse
+
+Q6: Write a program that lets the user play a guessing game.
+- First, your program should set a number as the "correct answer"
+- Then, your program will ask the user to guess a number
+- Your program should give a message indicating whether the user's guess is correct, too high, or too low
+
+This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
+
+Sample output for this program (for a correct answer of 7:
+```
+You guessed 13.
+
+This guess is too high.
+
+Better luck next time!
+```
+
+Q7: Revise your Q6 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
+
+Remember the lines of code nested under a `while` statement will continue to run (or loop) as long as the initial condition is true. The program will stop running (or looping) this code block when the initial condition is no longer true.
+
+The general logic flow for this program:
+```
+1- Accept user input
+
+2- Evaluate initial condition
+
+3- Check if guess is too high
+
+4- If guess is too high, output message to user and accept another guess.
+
+5- Check if guess is too low
+
+6- If guess is too low, output message to user and accept another guess
+
+7- Output final message indicating user has guessed correctly
+```
+
+Note that lines 2-6 will need to continue running (or looping) until the user guesses correctly.
+
+Answer to this question includes program + comments that document process and explain your code.
+
+Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first numeric value
+
+# second numeric value
+
+# third numeric value
+
+# complex comparison statement
+
+```
+
+Q9: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
+
+Outline for this program:
+```
+# first string object
+
+# second string object
+
+# third string object
+
+# complex comparison statement
+
+```
+   
+Q10: Write a program that uses Python's `and` and `or` logical operators to compare (at least) two comparison statements. Answer to this question includes program + comments that document process and explain your code.
