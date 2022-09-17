@@ -56,7 +56,7 @@ Relational operators or comparison operators in Python:
     
 For more on comparison operators in Python: [W3Schools, Python Comparison Operators](https://www.w3schools.com/python/gloss_python_comparison_operators.asp)
 
-**Complex Conditional Statements**
+## Complex Conditional Statements
 - Conditional statements that compare more than two values or evaluate multiple comparisons as part of a conditional statement.
 
 Python examples:
@@ -80,7 +80,7 @@ print(5 < 6 or 6 > 7) # returns true because at least one statement is true
 print(not(5 < 6 and 6 < 7)) # returns false, inverse of initial true
 ```
 
-**Control Structures**
+## Control Structures
 
 From Busbee and Braunschweig's "[Structured Programming](https://press.rebus.community/programmingfundamentals/chapter/structured-programming/)" from *Programming Fundamentals*
     
