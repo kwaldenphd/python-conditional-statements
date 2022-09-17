@@ -60,10 +60,10 @@ You can click the link in the figure caption to access these materials (ND users
 
 ## Lab Notebook Template
 
-[Click here]() to make a copy of the Replit template for this lab.
+[Click here](https://replit.com/team/eoc-f22/Conditional-Statements-in-Python) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` template]() (Google Drive, ND users)
+- [`.py` template](https://drive.google.com/file/d/1WZSeR0PP4Vpuy6B37zBcSYxYxkMyOK-W/view?usp=sharing) (Google Drive, ND users)
 - [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/171iknHXXUMLEO-yyUCI1g-MbRAKFgAOv?usp=sharing) (Google Colab, ND users)
 
 ## How to submit this lab (and show your work)
@@ -494,11 +494,11 @@ Q10: Write a program that uses Python's `and` and `or` logical operators to comp
 
 # Lab Notebook Questions
 
-[Click here]() to make a copy of the Replit template for this lab.
+[Click here](https://replit.com/team/eoc-f22/Conditional-Statements-in-Python) to make a copy of the Replit template for this lab.
 
 Alternatives:
-- [`.py` template](https://drive.google.com/file/d/1usNaA299oB63ruoruBXlhtIT78Ie6D1j/view?usp=sharing) (Google Drive, ND users)
-- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/1xnnZnnab03qHwTPQR5pGv39XsNlaOYpA?usp=sharing) (Google Colab, ND users)
+- [`.py` template](https://drive.google.com/file/d/1WZSeR0PP4Vpuy6B37zBcSYxYxkMyOK-W/view?usp=sharing) (Google Drive, ND users)
+- [Jupyter Notebook, `.ipynb`](https://colab.research.google.com/drive/171iknHXXUMLEO-yyUCI1g-MbRAKFgAOv?usp=sharing) (Google Colab, ND users)
 
 Q1: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two numeric values. Answer to this question includes program + comments that document process and explain your code.
 
