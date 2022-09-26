@@ -11,13 +11,6 @@ This lab provides an overview of foundational programming concepts in the areas 
 - `while` statements
 - Complex conditional statements
 
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=ff776195-c52e-4083-b903-aef40171360f">Lecture/Live Coding Playlist</a></td>
-  </tr>
-  </table>
-
 ## Acknowledgements
 
 Elements of this lab procedure were adapted from materials developed by:
@@ -30,7 +23,6 @@ Elements of this lab procedure were adapted from materials developed by:
 - [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
-- [Lecture & Live Coding](#lecture--live-coding)
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
 - [Comparison Operators](#comparison-operators)
@@ -45,14 +37,6 @@ Elements of this lab procedure were adapted from materials developed by:
 - [Lab Notebook Questions](#lab-notebook-questions)
 
 [Click here](https://colab.research.google.com/drive/1UYWn9aXNzacQrxIWut9VR6zqTkCwt6gx?usp=sharing) to access this lab procedure as a Jupyter Notebook.
-
-## Lecture & Live Coding
-
-Throughout this lab, you will see a Panopto icon at the start of select sections.
-
-This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
-
-You can click the link in the figure caption to access these materials (ND users only).
 
 ## Key Concepts
 
@@ -79,9 +63,7 @@ What gets submitted as the lab notebook is the `Lab_Notebook_Walden.py` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
 
-# BIG PICTURE PSEUDOCODE OVERVIEW
-
-How we're going to break this down in next few labs
+# Overview
 
 From Busbee and Braunschweig's "[Structured Programming](https://press.rebus.community/programmingfundamentals/chapter/structured-programming/)" from *Programming Fundamentals*
     
@@ -89,10 +71,14 @@ From Busbee and Braunschweig's "[Structured Programming](https://press.rebus.com
   * Sequence [executes in given sequence]
   * Selection [selects between two or more flows using condition or question]
   * Iteration [repeats same piece of code multiple times]
+  
+We're going to spend multiple labs thinking through control structures and control flow, with a focus on how we use them in Python.
     
 Examples of control structures in Python include:
 - `if-then-else` (syntax: `if`, `else`, `elif`)
 - `while` statements (syntax: `while`)
+
+Foundational to most control structures are something called conditional statements- code that tests whether a condition is `True` or `False`. 
 
 # Comparison Operators
 
