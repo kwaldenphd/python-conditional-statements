@@ -25,6 +25,7 @@ Elements of this lab procedure were adapted from materials developed by:
 # Table of Contents
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
+- [Overview](#overview)
 - [Comparison Operators](#comparison-operators)
   * [Boolean Logic](#boolean-logic)
   * [Boolean Logic & Comparison Operators](#boolean-logic--comparison-operators)
