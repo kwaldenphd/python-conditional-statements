@@ -150,12 +150,6 @@ print("Ohio State" > "Notre Dame") # returns false
   </tr>
   </table>
 
-What are comparison operators, what do they do
-   
-Why would we use comparison operators
-
-Sample comparisons, would output be True/False
-
 ## Application
 
 Q1: Write a program that uses each of Python's comparison operators (`==, !=, >, <, >=, <=`) to compare two numeric values. Answer to this question includes program + comments that document process and explain your code.
@@ -304,14 +298,6 @@ else:
   </tr>
   </table>
 
-if-then-else, what does the logic mean conceptually
-
-How does it show up in Python syntax
-
-How a while statement works
-
-Code blocks in Python (and where indentation fits in)
-
 ## Application
 
 Q4: Write a program that asks a user to enter a color value and returns an output message comparing that value with your favorite color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
@@ -439,12 +425,6 @@ For more on logical operators in Python: [W3Schools, Python Logical Operators](h
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLWTw1QgP8g3nrgGAUJNhgyRP9wzEo-3CcHF_YlgmiXklUyw/viewform?usp=sf_link">Logical Operators & Complex Conditional Statements Comprehension Check</a></td>
   </tr>
   </table>
-
-How do we compare more than 2 values
-
-Logical operators- pseudocode description
-
-Sample complex statements- what would they return
 
 ## Application
 
