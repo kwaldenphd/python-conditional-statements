@@ -40,7 +40,7 @@ Elements of this lab procedure were adapted from materials developed by:
 
 ## Key Concepts
 
-[Click here](https://github.com/kwaldenphd/python-conditional-statements/blob/draft/key-concepts.md) for a full list of key concepts and definitions from this lab.
+[Click here](https://github.com/kwaldenphd/python-conditional-statements/blob/main/key-concepts.md) for a full list of key concepts and definitions from this lab.
 
 ## Lab Notebook Template
 
