@@ -312,27 +312,7 @@ My age: blue
 We don't have the same favorite color.
 ```
 
-Q5: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
-
-Primary colors:
-- Red
-- Yellow
-- Blue
-
-Secondary colors:
-- Green
-- Orange
-- Purple
-
-Tertiary colors:
-- Amber
-- Vermillion
-- Magenta
-- Violet
-- Teal
-- Chartreuse
-
-Q6: Write a program that lets the user play a guessing game.
+Q5: Write a program that lets the user play a guessing game.
 - First, your program should set a number as the "correct answer"
 - Then, your program will ask the user to guess a number
 - Your program should give a message indicating whether the user's guess is correct, too high, or too low
@@ -348,7 +328,7 @@ This guess is too high.
 Better luck next time!
 ```
 
-Q7: Revise your Q6 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
+Q6: Revise your Q5 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
 
 Remember the lines of code nested under a `while` statement will continue to run (or loop) as long as the initial condition is true. The program will stop running (or looping) this code block when the initial condition is no longer true.
 
@@ -429,7 +409,7 @@ For more on logical operators in Python: [W3Schools, Python Logical Operators](h
 
 ## Application
 
-Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
+Q7: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
 
 Outline for this program:
 ```
@@ -443,7 +423,7 @@ Outline for this program:
 
 ```
 
-Q9: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
+Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
 
 Outline for this program:
 ```
@@ -457,7 +437,25 @@ Outline for this program:
 
 ```
    
-Q10: Write a program that uses Python's `and` and `or` logical operators to compare (at least) two comparison statements. Answer to this question includes program + comments that document process and explain your code.
+Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.**
+
+Primary colors:
+- Red
+- Yellow
+- Blue
+
+Secondary colors:
+- Green
+- Orange
+- Purple
+
+Tertiary colors:
+- Amber
+- Vermillion
+- Magenta
+- Violet
+- Teal
+- Chartreuse
 
 # Lab Notebook Questions
 
@@ -533,27 +531,7 @@ My age: blue
 We don't have the same favorite color.
 ```
 
-Q5: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
-
-Primary colors:
-- Red
-- Yellow
-- Blue
-
-Secondary colors:
-- Green
-- Orange
-- Purple
-
-Tertiary colors:
-- Amber
-- Vermillion
-- Magenta
-- Violet
-- Teal
-- Chartreuse
-
-Q6: Write a program that lets the user play a guessing game.
+Q5: Write a program that lets the user play a guessing game.
 - First, your program should set a number as the "correct answer"
 - Then, your program will ask the user to guess a number
 - Your program should give a message indicating whether the user's guess is correct, too high, or too low
@@ -569,7 +547,7 @@ This guess is too high.
 Better luck next time!
 ```
 
-Q7: Revise your Q6 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
+Q6: Revise your Q5 program to use a `while` statement and continue accept new user inputs until until the user guesses the correct number.
 
 Remember the lines of code nested under a `while` statement will continue to run (or loop) as long as the initial condition is true. The program will stop running (or looping) this code block when the initial condition is no longer true.
 
@@ -594,7 +572,7 @@ Note that steps 2-6 will need to continue running (or looping) until the user gu
 
 Answer to this question includes program + comments that document process and explain your code.
 
-Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
+Q7: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) numeric values. Answer to this question includes program + comments that document process and explain your code.
 
 Outline for this program:
 ```
@@ -608,7 +586,7 @@ Outline for this program:
 
 ```
 
-Q9: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
+Q8: Write a program that uses Python's comparison operators (`==, !=, >, <, >=, <=`) to compare at least three (3) string objects. Answer to this question includes program + comments that document process and explain your code.
 
 Outline for this program:
 ```
@@ -622,4 +600,22 @@ Outline for this program:
 
 ```
    
-Q10: Write a program that uses Python's `and` and `or` logical operators to compare (at least) two comparison statements. Answer to this question includes program + comments that document process and explain your code.
+Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.**
+
+Primary colors:
+- Red
+- Yellow
+- Blue
+
+Secondary colors:
+- Green
+- Orange
+- Purple
+
+Tertiary colors:
+- Amber
+- Vermillion
+- Magenta
+- Violet
+- Teal
+- Chartreuse
