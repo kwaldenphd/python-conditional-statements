@@ -369,7 +369,7 @@ The general logic flow for this program:
 7- Output final message indicating user has guessed correctly
 ```
 
-Note that lines 2-6 will need to continue running (or looping) until the user guesses correctly.
+Note that steps 2-6 will need to continue running (or looping) until the user guesses correctly.
 
 Answer to this question includes program + comments that document process and explain your code.
 
@@ -590,7 +590,7 @@ The general logic flow for this program:
 7- Output final message indicating user has guessed correctly
 ```
 
-Note that lines 2-6 will need to continue running (or looping) until the user guesses correctly.
+Note that steps 2-6 will need to continue running (or looping) until the user guesses correctly.
 
 Answer to this question includes program + comments that document process and explain your code.
 
