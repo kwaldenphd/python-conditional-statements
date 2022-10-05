@@ -437,7 +437,7 @@ Outline for this program:
 
 ```
    
-Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.**
+Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.
 
 Primary colors:
 - Red
@@ -600,7 +600,7 @@ Outline for this program:
 
 ```
    
-Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.**
+Q9: Modify your Q4 program to write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. This program will use a combination of the `input()` function, comparison operators, `if-then-else` logic, and Boolean logical operators. Answer to this question includes program + comments that document process and explain your code.
 
 Primary colors:
 - Red
