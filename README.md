@@ -137,9 +137,9 @@ When working with string objects that represent words or characters, comparison 
 
 A few examples in Python:
 ```
-print("apple" > "banana") # returns true
+print("apple" > "banana") # returns false
 
-print("Ohio State" > "Notre Dame") # returns false
+print("Ohio State" > "Notre Dame") # returns true
 ```   
 
 ## Comprehension Check
